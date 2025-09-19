@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.harga {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.order-btn {
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.order-btn:hover {
+  background-color: #1ebe57;
+}
